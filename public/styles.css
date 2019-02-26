@@ -1,0 +1,45 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  /* background-color: aqua;   */
+  background-image: url(ocean-view.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.title {
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 48px;
+  color: white;
+  text-shadow: 2px 2px black, 5px 5px coral;
+  margin-bottom: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 400px;
+  height: 150px;
+  margin: 0 auto; 
+}
+
+.item-list {
+  background-color: rgb(78, 228, 248, .8);
+  color: coral;
+  font-size: 24px;
+  width: 200px; 
+  border: 3px solid rgb(68, 192, 122);
+  /* height: 150px;  */
+  
+}
+
+ol {
+  padding: 0px 30px;
+}
+
